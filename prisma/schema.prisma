@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+model Room {
+  id String @id
+  name String
+  capacity Int
+  area Int
+  priceCents Int
+  bookings Booking[]
+}
+model Booking {
+  id String @id @default(uuid())
+  reference String @unique
+  cancellationHash String
+  roomId String
+  room Room @relation(fields: [roomId], references: [id])
+  checkIn DateTime @db.Date
+  checkOut DateTime @db.Date
+  adults Int
+  children Int
+  firstName String
+  lastName String
+  email String
+  phone String
+  country String
+  note String
+  nightlyCents Int
+  totalCents Int
+  currency String @default("USD")
+  status String @default("CONFIRMED")
+  demo Boolean @default(true)
+  createdAt DateTime @default(now())
+  @@index([status, createdAt])
+}
+model ContactMessage {
+  id String @id @default(uuid())
+  firstName String
+  lastName String
+  email String
+  topic String
+  message String
+  demo Boolean @default(true)
+  createdAt DateTime @default(now())
+}
+model Admin {
+  id String @id @default(uuid())
+  email String @unique
+  passwordHash String
+  sessions AdminSession[]
+}
+model AdminSession {
+  tokenHash String @id
+  adminId String
+  admin Admin @relation(fields: [adminId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+}

@@ -1,0 +1,463 @@
+const imgMountainRetreat = "https://www.figma.com/api/mcp/asset/ab8e2f37-46aa-4f31-8059-0d4b68f07a77.png";
+const imgEditorialPhotograph = "https://www.figma.com/api/mcp/asset/d2eab83a-74ab-43eb-bb7f-cb06f9f3ce5a.png";
+const imgEditorialPhotograph1 = "https://www.figma.com/api/mcp/asset/20deec74-f1c6-4bb4-9a92-fa6227ac4044.png";
+const imgEditorialPhotograph2 = "https://www.figma.com/api/mcp/asset/e45d217c-1937-4d4d-bd33-15b1dae00f98.png";
+const imgEditorialPhotograph3 = "https://www.figma.com/api/mcp/asset/620d069d-0695-4729-a998-9310216641be.png";
+const imgEditorialPhotograph4 = "https://www.figma.com/api/mcp/asset/f63c9c46-b833-4b3a-bf5e-5601d7f5646b.png";
+const imgEditorialPhotograph5 = "https://www.figma.com/api/mcp/asset/c43056af-3867-4663-8624-2074dd57565e.png";
+const imgSomewhereBetweenEarthAndSky = "https://www.figma.com/api/mcp/asset/93a4f79f-a6c9-42af-8c28-9509e87656e1.png";
+const imgEditorialPhotograph6 = "https://www.figma.com/api/mcp/asset/3e5b44a4-9947-4eab-be63-99fa68d6a5d3.png";
+const imgArrowUpRight = "https://www.figma.com/api/mcp/asset/27d6c581-bd08-405a-b4a2-d2a88ad34eeb.svg";
+const imgArrowUpRight1 = "https://www.figma.com/api/mcp/asset/f65d9326-9c6d-4f5f-baf0-519643166191.svg";
+
+export default function HomeDesktop() {
+  return (
+    <div className="bg-[#f3f0e8] content-stretch flex flex-col items-start relative size-full" data-node-id="3:15867" data-name="Home · Desktop">
+      <div className="content-stretch flex flex-col h-[950px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:15868" data-name="Arrival">
+        <div className="content-stretch flex flex-col h-[890px] items-start justify-between overflow-clip relative shrink-0 w-full" data-node-id="3:15869" data-name="Mountain hero">
+          <div className="absolute h-[890px] left-0 right-0 top-0" data-node-id="3:15870" data-name="Mountain retreat">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMountainRetreat} />
+          </div>
+          <div className="absolute bg-[rgba(23,37,29,0.3)] h-[890px] left-0 right-0 top-0" data-node-id="3:15871" data-name="Photographic shade" />
+          <div className="bg-[rgba(0,0,0,0)] content-stretch flex h-[108px] items-center justify-between overflow-clip px-[72px] relative shrink-0 w-full" data-node-id="3:15872" data-name="Transparent navigation">
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[40px] whitespace-nowrap" data-node-id="3:15873">
+              AERIS®
+            </p>
+            <div className="content-stretch flex gap-[34px] items-center overflow-clip relative shrink-0" data-node-id="3:15874" data-name="Site navigation">
+              <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-node-id="3:15875" data-name="Navigation item">
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:15876">
+                  Rooms
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-node-id="3:15877" data-name="Navigation item">
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:15878">
+                  Experiences
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-node-id="3:15879" data-name="Navigation item">
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:15880">
+                  About
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-node-id="3:15881" data-name="Navigation item">
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:15882">
+                  Contact
+                </p>
+              </div>
+              <div className="bg-[rgba(0,0,0,0)] border border-[#f3f0e8] border-solid content-stretch flex gap-[24px] h-[54px] items-center justify-center overflow-clip px-[24px] relative shrink-0" data-node-id="3:15883" data-name="Action">
+                <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:15884">
+                  Book Your Stay
+                </p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="3:18892" data-name="arrow-up-right">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip px-[72px] relative shrink-0 w-full" data-node-id="3:15886" data-name="Hero promise">
+            <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#f3f0e8] text-[10px] uppercase whitespace-nowrap" data-node-id="3:15887">
+              AERIS® Mountain Retreat · Swiss Alps
+            </p>
+            <div className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#f3f0e8] text-[120px] w-[min-content]" data-node-id="3:15888">
+              <p className="leading-[1.04] mb-0">A Quieter Kind</p>
+              <p className="leading-[1.04]">of Altitude</p>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#f3f0e8] text-[16px] w-[min-content]" data-node-id="3:15889">
+              Somewhere Between Earth and Sky.
+            </p>
+            <div className="border-[#f3f0e8] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15890" data-name="Editorial link">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:15891">
+                Discover the retreat
+              </p>
+              <div className="relative shrink-0 size-[16px]" data-node-id="3:18895" data-name="arrow-up-right">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Manrope:Medium'] font-medium items-start justify-between leading-[1.5] overflow-clip pb-[96px] px-[72px] relative shrink-0 text-[#f3f0e8] text-[10px] uppercase w-full whitespace-pre" data-node-id="3:15893" data-name="Hero coordinates">
+            <p className="relative shrink-0" data-node-id="3:15894">{`46°05′ N  ·  7°30′ E`}</p>
+            <p className="relative shrink-0" data-node-id="3:15895">{`1,850 M ABOVE THE EVERYDAY   ↓`}</p>
+          </div>
+        </div>
+        <div className="absolute bg-[#f3f0e8] border border-[#cfcfc2] border-solid bottom-0 content-stretch flex gap-[36px] items-center left-[72px] overflow-clip p-[28px] w-[1296px]" data-node-id="3:15896" data-name="Floating booking bar">
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] gap-[36px] items-start min-w-px overflow-clip relative whitespace-nowrap" data-node-id="3:15897" data-name="Dates">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip relative" data-node-id="3:15898" data-name="Booking date">
+              <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase" data-node-id="3:15899">
+                Check-in
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[17px]" data-node-id="3:15900">
+                16 Nov 2026
+              </p>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip relative" data-node-id="3:15901" data-name="Booking date">
+              <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase" data-node-id="3:15902">
+                Check-out
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[17px]" data-node-id="3:15903">
+                19 Nov 2026
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-center justify-between min-w-px overflow-clip relative" data-node-id="3:15904" data-name="Guests and search">
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="3:15905" data-name="Guests">
+              <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase" data-node-id="3:15906">
+                Guests
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[17px]" data-node-id="3:15907">
+                2 guests · 1 room
+              </p>
+            </div>
+            <div className="bg-[#35463f] border border-[rgba(0,0,0,0)] border-solid content-stretch flex gap-[24px] h-[54px] items-center justify-center overflow-clip px-[24px] relative shrink-0" data-node-id="3:15908" data-name="Action">
+              <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:15909">
+                Find Your Quiet
+              </p>
+              <div className="relative shrink-0 size-[16px]" data-node-id="3:18898" data-name="arrow-up-right">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[120px] items-start overflow-clip px-[72px] py-[120px] relative shrink-0 w-full" data-node-id="3:15911" data-name="Where the world slows down">
+        <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px overflow-clip relative" data-node-id="3:15912" data-name="Editorial title">
+          <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:15913">
+            01 / An invitation to pause
+          </p>
+          <div className="font-['Cormorant_Garamond:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#252824] text-[76px] w-[min-content]" data-node-id="3:15914">
+            <p className="leading-[1.04] mb-0">Where the World</p>
+            <p className="leading-[1.04]">Slows Down</p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px overflow-clip pt-[64px] relative" data-node-id="3:15915" data-name="Retreat introduction">
+          <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#252824] text-[18px] w-[min-content]" data-node-id="3:15916">
+            Beyond the last bend in the road, the mountains open. The air changes. And for the first time in a while, there is nothing you need to do.
+          </p>
+          <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[15px] w-[min-content]" data-node-id="3:15917">
+            AERIS is a small, considered retreat in the Swiss Alps. Eighteen rooms, rooted in local stone and larch. A table shaped by the seasons. Space to simply be.
+          </p>
+          <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15918" data-name="Editorial link">
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:15919">
+              Our way of being
+            </p>
+            <div className="relative shrink-0 size-[16px]" data-node-id="3:18901" data-name="arrow-up-right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[64px] items-start overflow-clip pb-[112px] px-[72px] relative shrink-0 w-full" data-node-id="3:15921" data-name="Rooms to retreat to">
+        <div className="content-stretch flex items-end justify-between overflow-clip relative shrink-0 w-full" data-node-id="3:15922" data-name="Section introduction">
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px overflow-clip relative" data-node-id="3:15923" data-name="Section title">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:15924">
+              02 / Stay a little longer
+            </p>
+            <p className="font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[64px] w-[min-content]" data-node-id="3:15925">
+              Rooms with room to breathe.
+            </p>
+          </div>
+          <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15926" data-name="Editorial link">
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:15927">{`All rooms & suites`}</p>
+            <div className="relative shrink-0 size-[16px]" data-node-id="3:18904" data-name="arrow-up-right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[64px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:15929" data-name="Asymmetric room collection">
+          <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-[744px]" data-node-id="3:15930" data-name="Forest Suite showcase">
+            <div className="h-[590px] relative shrink-0 w-full" data-node-id="3:15931" data-name="Editorial photograph">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhotograph} />
+            </div>
+            <div className="[word-break:break-word] content-stretch flex items-start justify-between overflow-clip relative shrink-0 w-full whitespace-nowrap" data-node-id="3:15932" data-name="Room metadata">
+              <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase" data-node-id="3:15933">
+                2 guests · 38m²
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[1.7] relative shrink-0 text-[#686e63] text-[12px]" data-node-id="3:15934">
+                From $185/night
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[48px] w-[min-content]" data-node-id="3:15935">
+              Forest Suite
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[15px] w-[min-content]" data-node-id="3:15936">
+              Wake to the stillness of the trees. Warm oak, soft linen, and a forest that feels entirely your own.
+            </p>
+            <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15937" data-name="Editorial link">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:15938">
+                Step inside
+              </p>
+              <div className="relative shrink-0 size-[16px]" data-node-id="3:18907" data-name="arrow-up-right">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px overflow-clip pt-[148px] relative" data-node-id="3:15940" data-name="Panorama Loft showcase">
+            <div className="h-[480px] relative shrink-0 w-full" data-node-id="3:15941" data-name="Editorial photograph">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhotograph1} />
+            </div>
+            <div className="[word-break:break-word] content-stretch flex items-start justify-between overflow-clip relative shrink-0 w-full whitespace-nowrap" data-node-id="3:15942" data-name="Room metadata">
+              <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase" data-node-id="3:15943">
+                2 guests · 52m²
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[1.7] relative shrink-0 text-[#686e63] text-[12px]" data-node-id="3:15944">
+                From $275/night
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[48px] w-[min-content]" data-node-id="3:15945">
+              Panorama Loft
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[15px] w-[min-content]" data-node-id="3:15946">
+              A higher perspective. Light-filled living beneath the eaves, with the whole valley at your feet.
+            </p>
+            <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15947" data-name="Editorial link">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:15948">
+                Step inside
+              </p>
+              <div className="relative shrink-0 size-[16px]" data-node-id="3:18910" data-name="arrow-up-right">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="border-[#cfcfc2] border-b border-solid border-t content-stretch flex items-center justify-between overflow-clip py-[24px] relative shrink-0 w-full" data-node-id="3:15950" data-name="Residence note">
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip relative" data-node-id="3:15951" data-name="Residence information">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:15952">
+              For a little more togetherness
+            </p>
+            <p className="font-['Cormorant_Garamond:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[36px] whitespace-nowrap" data-node-id="3:15953">
+              Summit Residence
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[12px] w-[min-content]" data-node-id="3:15954">
+              4 guests · 86m² · $420/night
+            </p>
+          </div>
+          <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15955" data-name="Editorial link">
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:15956">
+              Discover the residence
+            </p>
+            <div className="relative shrink-0 size-[16px]" data-node-id="3:18913" data-name="arrow-up-right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#e8e8dd] content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:15958" data-name="Architecture and nature">
+        <div className="h-[730px] relative shrink-0 w-[760px]" data-node-id="3:15959" data-name="Editorial photograph">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhotograph2} />
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px overflow-clip px-[72px] py-[108px] relative" data-node-id="3:15960" data-name="A quieter architecture">
+          <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:15961">
+            03 / In conversation with nature
+          </p>
+          <div className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#252824] text-[64px] w-[min-content]" data-node-id="3:15962">
+            <p className="leading-[1.04] mb-0">Built to belong.</p>
+            <p className="leading-[1.04]">Not to interrupt.</p>
+          </div>
+          <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[15px] w-[min-content]" data-node-id="3:15963">
+            Local larch that silvers with the seasons. Stone from the valley beneath us. Architecture that frames the landscape, then quietly steps aside.
+          </p>
+          <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[15px] w-[min-content]" data-node-id="3:15964">
+            Every material has a reason. Every window, a view worth waiting for.
+          </p>
+          <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15965" data-name="Editorial link">
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:15966">
+              The story of AERIS
+            </p>
+            <div className="relative shrink-0 size-[16px]" data-node-id="3:18916" data-name="arrow-up-right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[40px] items-start overflow-clip px-[72px] py-[112px] relative shrink-0 w-full" data-node-id="3:15968" data-name="A different rhythm">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:15969" data-name="Experience introduction">
+          <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:15970">
+            04 / Follow your own rhythm
+          </p>
+          <p className="font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[64px] w-[min-content]" data-node-id="3:15971">
+            Less itinerary. More instinct.
+          </p>
+          <p className="font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[15px] w-[min-content]" data-node-id="3:15972">
+            Warm water. A long lunch. The path less hurried. Let the day find its own shape.
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:15973" data-name="Experience gallery">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[18px] items-start min-w-px overflow-clip relative" data-node-id="3:15974" data-name="Experience feature">
+            <div className="h-[420px] relative shrink-0 w-full" data-node-id="3:15975" data-name="Editorial photograph">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhotograph3} />
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:15976">
+              01 / Restore
+            </p>
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[38px] w-[min-content]" data-node-id="3:15977">
+              The art of doing less
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[13px] w-[min-content]" data-node-id="3:15978">{`Forest spa & alpine rituals`}</p>
+            <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15979" data-name="Editorial link">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:15980">
+                Discover experience
+              </p>
+              <div className="relative shrink-0 size-[16px]" data-node-id="3:18919" data-name="arrow-up-right">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[18px] items-start min-w-px overflow-clip relative" data-node-id="3:15982" data-name="Experience feature">
+            <div className="h-[420px] relative shrink-0 w-full" data-node-id="3:15983" data-name="Editorial photograph">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhotograph4} />
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:15984">
+              02 / Savour
+            </p>
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[38px] w-[min-content]" data-node-id="3:15985">
+              A taste of this place
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[13px] w-[min-content]" data-node-id="3:15986">
+              Seasonal dining at the table
+            </p>
+            <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15987" data-name="Editorial link">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:15988">
+                Discover experience
+              </p>
+              <div className="relative shrink-0 size-[16px]" data-node-id="3:18922" data-name="arrow-up-right">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[18px] items-start min-w-px overflow-clip relative" data-node-id="3:15990" data-name="Experience feature">
+            <div className="h-[420px] relative shrink-0 w-full" data-node-id="3:15991" data-name="Editorial photograph">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhotograph5} />
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:15992">
+              03 / Wander
+            </p>
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[38px] w-[min-content]" data-node-id="3:15993">
+              Take the long way
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[13px] w-[min-content]" data-node-id="3:15994">{`Trails, summits & open skies`}</p>
+            <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:15995" data-name="Editorial link">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:15996">
+                Discover experience
+              </p>
+              <div className="relative shrink-0 size-[16px]" data-node-id="3:18925" data-name="arrow-up-right">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[32px] h-[840px] items-center justify-center overflow-clip px-[160px] py-[80px] relative shrink-0 w-full" data-node-id="3:15998" data-name="Somewhere between earth and sky">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSomewhereBetweenEarthAndSky} />
+        <div className="absolute bg-[rgba(23,37,29,0.3)] inset-0" data-node-id="3:16000" data-name="Photographic shade" />
+        <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#f3f0e8] text-[10px] uppercase whitespace-nowrap" data-node-id="3:16001">
+          The luxury of simply being
+        </p>
+        <div className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#f3f0e8] text-[104px] text-center w-[min-content]" data-node-id="3:16002">
+          <p className="leading-[1.04] mb-0">Somewhere Between</p>
+          <p className="leading-[1.04]">Earth and Sky.</p>
+        </div>
+        <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#f3f0e8] text-[15px] text-center w-[min-content]" data-node-id="3:16003">
+          Not far from everything. Just far enough.
+        </p>
+      </div>
+      <div className="content-stretch flex gap-[96px] items-center overflow-clip px-[72px] py-[96px] relative shrink-0 w-full" data-node-id="3:16004" data-name="Seasonal field notes">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px overflow-clip relative" data-node-id="3:16005" data-name="Seasonal story">
+          <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:16006">
+            05 / Notes from the mountains · Autumn 2026
+          </p>
+          <div className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#252824] text-[64px] w-[min-content]" data-node-id="3:16007">
+            <p className="leading-[1.04] mb-0">When the valley</p>
+            <p className="leading-[1.04]">turns to gold.</p>
+          </div>
+          <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[15px] w-[min-content]" data-node-id="3:16008">
+            The larches glow, the paths grow quiet, and the first snow dusts the highest ridges. Autumn here is not a season to fill. It is a season to feel.
+          </p>
+          <div className="border-[#35463f] border-b border-solid content-stretch flex gap-[24px] items-center overflow-clip py-[12px] relative shrink-0" data-node-id="3:16009" data-name="Editorial link">
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:16010">
+              Explore the autumn rituals
+            </p>
+            <div className="relative shrink-0 size-[16px]" data-node-id="3:18928" data-name="arrow-up-right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight1} />
+            </div>
+          </div>
+        </div>
+        <div className="h-[430px] relative shrink-0 w-[540px]" data-node-id="3:16012" data-name="Editorial photograph">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhotograph6} />
+        </div>
+      </div>
+      <div className="bg-[#e8e8dd] content-stretch flex flex-col gap-[28px] items-center overflow-clip px-[240px] py-[100px] relative shrink-0 w-full" data-node-id="3:16013" data-name="Stay invitation">
+        <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:16014">
+          Your mountain moment
+        </p>
+        <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[64px] text-center w-[min-content]" data-node-id="3:16015">
+          Leave the noise behind.
+        </p>
+        <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[15px] text-center w-[min-content]" data-node-id="3:16016">
+          A few days above the everyday. A little closer to yourself.
+        </p>
+        <div className="bg-[#35463f] border border-[rgba(0,0,0,0)] border-solid content-stretch flex gap-[24px] h-[54px] items-center justify-center overflow-clip px-[24px] relative shrink-0" data-node-id="3:16017" data-name="Action">
+          <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:16018">
+            Book Your Stay
+          </p>
+          <div className="relative shrink-0 size-[16px]" data-node-id="3:18931" data-name="arrow-up-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight} />
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#35463f] content-stretch flex flex-col gap-[56px] items-start overflow-clip pb-[24px] pt-[64px] px-[72px] relative shrink-0 w-full" data-node-id="3:16020" data-name="Footer">
+        <div className="[word-break:break-word] content-stretch flex items-start justify-between overflow-clip relative shrink-0 w-full" data-node-id="3:16021" data-name="Footer information">
+          <div className="content-stretch flex flex-col font-normal gap-[14px] items-start overflow-clip relative shrink-0 w-[420px]" data-node-id="3:16022" data-name="Brand promise">
+            <p className="font-['Cormorant_Garamond:Regular'] leading-[normal] relative shrink-0 text-[#f3f0e8] text-[60px] whitespace-nowrap" data-node-id="3:16023">
+              AERIS®
+            </p>
+            <p className="font-['Manrope:Regular'] leading-[1.7] min-w-full relative shrink-0 text-[#f3f0e8] text-[14px] w-[min-content]" data-node-id="3:16024">
+              Somewhere Between Earth and Sky.
+            </p>
+            <p className="font-['Manrope:Regular'] leading-[1.7] min-w-full relative shrink-0 text-[#b7b9a6] text-[12px] w-[min-content]" data-node-id="3:16025">
+              A mountain retreat in the Swiss Alps.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="3:16026" data-name="Explore">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#b7b9a6] text-[10px] uppercase" data-node-id="3:16027">
+              A little further
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:16028">{`Rooms & suites`}</p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:16029">
+              Experiences
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:16030">
+              Our story
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:16031">
+              Contact
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 w-[260px]" data-node-id="3:16032" data-name="Find us">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#b7b9a6] text-[10px] uppercase whitespace-nowrap" data-node-id="3:16033">
+              Find your quiet
+            </p>
+            <div className="font-['Manrope:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#f3f0e8] text-[13px] w-[min-content]" data-node-id="3:16034">
+              <p className="leading-[1.7] mb-0">Val d’Hérens, 1984 Les Haudères</p>
+              <p className="leading-[1.7]">Valais, Switzerland</p>
+            </div>
+            <div className="font-['Manrope:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#f3f0e8] text-[13px] w-[min-content]" data-node-id="3:16035">
+              <p className="leading-[1.7] mb-0">hello@aeris-retreat.example</p>
+              <p className="leading-[1.7]">+41 27 555 01 26</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:16036" data-name="Colophon">
+          <div className="bg-[rgba(255,255,255,0.25)] h-px relative shrink-0 w-full" data-node-id="3:16037" data-name="Divider" />
+          <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[#b7b9a6] text-[10px] w-full" data-node-id="3:16038" data-name="Legal">
+            <p className="relative shrink-0 whitespace-nowrap" data-node-id="3:16039">
+              © 2026 AERIS® Mountain Retreat
+            </p>
+            <p className="relative shrink-0 whitespace-pre" data-node-id="3:16040">{`Privacy    ·    Terms    ·    Instagram`}</p>
+            <p className="relative shrink-0 whitespace-nowrap" data-node-id="3:16041">
+              An imagined place. A portfolio concept.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

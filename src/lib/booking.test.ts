@@ -1,0 +1,14 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { addDays, defaultStay, emptyGuest, nights, restoreStay, total, validISO, validateGuest, validateStay } from './booking';
+
+const today = '2026-10-28';
+test('the exact Figma stay totals $555 for three Forest Suite nights', () => { const stay = defaultStay(today); assert.equal(nights(stay), 3); assert.equal(total(stay), 555); assert.deepEqual(validateStay(stay, today), []); });
+test('night counts are calendar based across daylight saving changes', () => { assert.equal(nights({ checkIn: '2027-03-27', checkOut: '2027-03-30' }), 3); });
+test('capacity includes children and allows four in Summit Residence', () => { const stay = { ...defaultStay(today), adults: 2, children: 1 }; assert.match(validateStay(stay, today).join(' '), /maximum of 2/); assert.deepEqual(validateStay({ ...stay, roomId: 'summit-residence' }, today), []); assert.equal(total({ ...stay, roomId: 'summit-residence' }), 1260); });
+test('past, equal, reversed, and impossible dates are rejected', () => { const stay = defaultStay(today); assert.ok(validateStay({ ...stay, checkIn: '2026-10-27' }, today).length); assert.ok(validateStay({ ...stay, checkOut: stay.checkIn }, today).length); assert.ok(validateStay({ ...stay, checkOut: '2026-11-15' }, today).length); assert.equal(validISO('2026-02-30'), false); assert.equal(validISO('invalid'), false); });
+test('guest counts must be positive adults and whole nonnegative children', () => { const stay = defaultStay(today); for (const update of [{ adults: 0 }, { children: -1 }, { adults: 1.5 }, { children: Number.NaN }]) assert.ok(validateStay({ ...stay, ...update }, today).length); });
+test('invalid saved state cannot bypass validation or use an unknown room', () => { for (const value of [null, {}, { roomId: 'penthouse' }, { ...defaultStay(today), adults: 50 }, { ...defaultStay(today), checkIn: 'garbage' }]) assert.deepEqual(restoreStay(value, today), defaultStay(today)); });
+test('a valid saved stay restores only whitelisted stay properties', () => { const stay = { ...defaultStay(today), roomId: 'panorama-loft' as const }; assert.deepEqual(restoreStay({ ...stay, email: 'private@example.com' }, today), stay); });
+test('guest validation covers the illustrated partial email and demo consent errors', () => { const guest = { ...emptyGuest, firstName: 'Mara', lastName: 'Ackermann', email: 'mara@', country: 'Switzerland' }; assert.deepEqual(Object.keys(validateGuest(guest)).sort(), ['email', 'terms']); assert.deepEqual(validateGuest({ ...guest, email: 'mara@example.com', terms: true }), {}); });
+test('example dates advance when the original example is in the past', () => { const stay = defaultStay('2026-12-01'); assert.equal(stay.checkIn, '2026-12-02'); assert.equal(addDays(stay.checkIn, 3), stay.checkOut); assert.deepEqual(validateStay(stay, '2026-12-01'), []); });

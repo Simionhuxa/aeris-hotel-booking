@@ -1,0 +1,11 @@
+import { z } from 'zod';
+export const today = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Kyiv', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+const date = z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(v => Number.isFinite(Date.parse(v)) && new Date(v).toISOString().slice(0, 10) === v, 'Invalid date');
+export const nights = (start: string, end: string) => (Date.parse(end) - Date.parse(start)) / 86400000;
+export const dates = z.object({ checkIn: date, checkOut: date }).refine(v => v.checkIn >= today() && nights(v.checkIn, v.checkOut) >= 1 && nights(v.checkIn, v.checkOut) <= 30, 'Choose a future stay of 1–30 nights');
+const name = z.string().trim().min(1).max(100);
+export const guestSchema = z.object({ firstName: name, lastName: name, email: z.string().trim().email().max(254), phone: z.string().trim().max(100), country: name, note: z.string().trim().max(2000), terms: z.literal(true) });
+export const staySchema = dates.and(z.object({ roomId: z.string().min(1).max(100), adults: z.number().int().min(1).max(4), children: z.number().int().min(0).max(3) }));
+export const bookingSchema = z.object({ stay: staySchema, guest: guestSchema });
+export const contactSchema = z.object({ firstName: name, lastName: name, email: z.string().trim().email().max(254), topic: z.enum(['Planning a stay', 'A special occasion', 'Dining and experiences', 'Simply a hello']), message: z.string().trim().min(1).max(3000), privacy: z.literal(true) });
+export const credentials = z.object({ email: z.string().trim().email().max(254).transform(v => v.toLowerCase()), password: z.string().min(1).max(256) });

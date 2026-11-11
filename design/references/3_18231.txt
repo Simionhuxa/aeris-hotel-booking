@@ -1,0 +1,304 @@
+const imgEditorialPhotograph = "https://www.figma.com/api/mcp/asset/c10d18ca-e534-4ee1-be64-9c2cac8ef504.png";
+const imgMenu = "https://www.figma.com/api/mcp/asset/0f2d4d1f-e934-4fad-b87a-12fed41885cc.svg";
+const imgCircleAlert = "https://www.figma.com/api/mcp/asset/91b181b5-0be1-4f9e-92c6-78f9ad46cb41.svg";
+const imgArrowUpRight = "https://www.figma.com/api/mcp/asset/18ed03fa-dd3f-4942-afab-00a52cf34239.svg";
+
+export default function BookingYourDetailsMobile() {
+  return (
+    <div className="bg-[#f3f0e8] content-stretch flex flex-col items-start relative size-full" data-node-id="3:18231" data-name="Booking · Your details · Mobile">
+      <div className="bg-[#f3f0e8] content-stretch flex h-[82px] items-center justify-between overflow-clip px-[24px] relative shrink-0 w-full" data-node-id="3:18232" data-name="Solid navigation">
+        <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[32px] whitespace-nowrap" data-node-id="3:18233">
+          AERIS®
+        </p>
+        <div className="content-stretch flex gap-[24px] items-center overflow-clip relative shrink-0" data-node-id="3:18234" data-name="Mobile actions">
+          <div className="content-stretch flex h-[44px] items-center overflow-clip relative shrink-0" data-node-id="3:18235" data-name="Book touch target">
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[11px] whitespace-nowrap" data-node-id="3:18236">
+              Book Your Stay
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-center overflow-clip relative shrink-0 size-[44px]" data-node-id="3:18237" data-name="Menu touch target">
+            <div className="relative shrink-0 size-[24px]" data-node-id="3:19126" data-name="menu">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMenu} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[26px] items-start overflow-clip pb-[40px] pt-[32px] px-[24px] relative shrink-0 w-full" data-node-id="3:18239" data-name="Booking introduction">
+        <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:18240">
+          AERIS / A demonstration stay
+        </p>
+        <p className="font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[52px] w-[min-content]" data-node-id="3:18241">
+          Make room for quiet.
+        </p>
+        <div className="content-stretch flex gap-[10px] items-start leading-[normal] overflow-clip relative shrink-0 text-[11px] w-full whitespace-nowrap" data-node-id="3:18242" data-name="Booking progress">
+          <div className="border-[#cfcfc2] border-b border-solid content-stretch flex flex-[1_0_0] font-['Manrope:Regular'] font-normal gap-[8px] items-center min-w-px overflow-clip pb-[12px] relative text-[#35463f]" data-node-id="3:18243" data-name="Completed step">
+            <p className="relative shrink-0" data-node-id="3:18244">
+              ✓
+            </p>
+            <p className="relative shrink-0" data-node-id="3:18245">
+              Your stay
+            </p>
+          </div>
+          <div className="border-[#35463f] border-b-2 border-solid content-stretch flex flex-[1_0_0] gap-[8px] items-center min-w-px overflow-clip pb-[12px] relative text-[#35463f]" data-node-id="3:18246" data-name="Current step">
+            <p className="font-['Manrope:Regular'] font-normal relative shrink-0" data-node-id="3:18247">
+              02
+            </p>
+            <p className="font-['Manrope:SemiBold'] font-semibold relative shrink-0" data-node-id="3:18248">
+              Your details
+            </p>
+          </div>
+          <div className="border-[#cfcfc2] border-b border-solid content-stretch flex flex-[1_0_0] font-['Manrope:Regular'] font-normal gap-[8px] items-center min-w-px overflow-clip pb-[12px] relative text-[#686e63]" data-node-id="3:18249" data-name="Upcoming step">
+            <p className="relative shrink-0" data-node-id="3:18250">
+              03
+            </p>
+            <p className="relative shrink-0" data-node-id="3:18251">
+              Review
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[48px] items-start overflow-clip pb-[64px] px-[24px] relative shrink-0 w-full" data-node-id="3:18252" data-name="Booking body">
+        <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18253" data-name="Current booking stage">
+          <div className="content-stretch flex flex-col gap-[28px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18254" data-name="Guest information validation">
+            <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:18255">
+              Form state / Check your details
+            </p>
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[36px] w-[min-content]" data-node-id="3:18256">
+              A name to welcome you by.
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[15px] w-[min-content]" data-node-id="3:18257">
+              The little details that help us imagine your stay. Fields marked * are required.
+            </p>
+            <div className="[word-break:break-word] border border-[#964c3d] border-solid content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[18px] relative shrink-0 text-[#964c3d] w-full" data-node-id="3:18258" data-name="Validation summary">
+              <p className="font-['Manrope:SemiBold'] font-semibold leading-[normal] relative shrink-0 text-[13px] whitespace-nowrap" data-node-id="3:18259">
+                Two things need your attention.
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[12px] w-[min-content]" data-node-id="3:18260">
+                Enter a complete email address and accept the demo booking terms below.
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18261" data-name="Guest name">
+              <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18262" data-name="Form field">
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-pre" data-node-id="3:18263">{`First name *  ✓`}</p>
+                <div className="border border-[#cfcfc2] border-solid content-stretch flex items-start min-h-[54px] overflow-clip p-[14px] relative shrink-0 w-full" data-node-id="3:18264" data-name="Input">
+                  <p className="[word-break:break-word] flex-[1_0_0] font-['Manrope:Regular'] font-normal leading-[1.5] min-w-px relative text-[#252824] text-[14px]" data-node-id="3:18265">
+                    Mara
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18266" data-name="Form field">
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-pre" data-node-id="3:18267">{`Last name *  ✓`}</p>
+                <div className="border border-[#cfcfc2] border-solid content-stretch flex items-start min-h-[54px] overflow-clip p-[14px] relative shrink-0 w-full" data-node-id="3:18268" data-name="Input">
+                  <p className="[word-break:break-word] flex-[1_0_0] font-['Manrope:Regular'] font-normal leading-[1.5] min-w-px relative text-[#252824] text-[14px]" data-node-id="3:18269">
+                    Ackermann
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18270" data-name="Invalid field">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:18271">
+                Email address *
+              </p>
+              <div className="border border-[#964c3d] border-solid content-stretch flex gap-[8px] items-start min-h-[54px] overflow-clip p-[14px] relative shrink-0 w-full" data-node-id="3:18272" data-name="Input">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Manrope:Regular'] font-normal leading-[1.5] min-w-px relative text-[#252824] text-[14px]" data-node-id="3:18273">
+                  mara@
+                </p>
+                <div className="relative shrink-0 size-[18px]" data-node-id="3:19129" data-name="circle-alert">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCircleAlert} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#964c3d] text-[11px] w-[min-content]" data-node-id="3:18275">
+                Enter a valid email address, such as mara@example.com.
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18276" data-name="Focused field">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:18277">
+                Phone number (optional)
+              </p>
+              <div className="border-2 border-[#35463f] border-solid content-stretch flex items-start min-h-[54px] overflow-clip p-[14px] relative shrink-0 w-full" data-node-id="3:18278" data-name="Input">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Manrope:Regular'] font-normal leading-[1.5] min-w-px relative text-[#252824] text-[14px]" data-node-id="3:18279">
+                  +41 79 555 01 26
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18280" data-name="Form field">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-pre" data-node-id="3:18281">{`Country / region *  ✓`}</p>
+              <div className="border border-[#cfcfc2] border-solid content-stretch flex items-start min-h-[54px] overflow-clip p-[14px] relative shrink-0 w-full" data-node-id="3:18282" data-name="Input">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Manrope:Regular'] font-normal leading-[1.5] min-w-px relative text-[#252824] text-[14px] whitespace-pre-wrap" data-node-id="3:18283">{`Switzerland                         ↓`}</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18284" data-name="Form field">
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:18285">
+                Anything we should know? (optional)
+              </p>
+              <div className="border border-[#cfcfc2] border-solid content-stretch flex items-start min-h-[124px] overflow-clip p-[14px] relative shrink-0 w-full" data-node-id="3:18286" data-name="Input">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Manrope:Regular'] font-normal leading-[1.5] min-w-px relative text-[#252824] text-[14px]" data-node-id="3:18287">
+                  We would love a quiet room and vegetarian breakfast options.
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18288" data-name="Terms validation">
+              <div className="content-stretch flex gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18289" data-name="Required consent">
+                <div className="border-2 border-[#964c3d] border-solid relative shrink-0 size-[22px]" data-node-id="3:18290" data-name="Unchecked invalid checkbox" />
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-px relative text-[#686e63] text-[12px]" data-node-id="3:18291">
+                  I accept the demo booking terms and privacy notice. I understand this does not create a real reservation. *
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#964c3d] text-[11px] w-full" data-node-id="3:18292">
+                Please accept the demo terms before continuing.
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[20px] items-center overflow-clip relative shrink-0 w-full" data-node-id="3:18293" data-name="Form navigation">
+              <div className="bg-[#35463f] border border-[rgba(0,0,0,0)] border-solid content-stretch flex gap-[24px] h-[54px] items-center justify-center overflow-clip px-[24px] relative shrink-0" data-node-id="3:18294" data-name="Action">
+                <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:18295">
+                  Review your stay
+                </p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="3:19132" data-name="arrow-up-right">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:18297">
+                ← Back
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[11px] w-[min-content]" data-node-id="3:18298">
+              Illustrated validation state only. Your details are not submitted or saved.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18299" data-name="Stay overview">
+          <div className="border border-[#cfcfc2] border-solid content-stretch flex flex-col gap-[20px] items-start overflow-clip p-[24px] relative shrink-0 w-full" data-node-id="3:18300" data-name="Your stay summary">
+            <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:18301">
+              Your quiet escape
+            </p>
+            <div className="h-[180px] relative shrink-0 w-full" data-node-id="3:18302" data-name="Editorial photograph">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhotograph} />
+            </div>
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[36px] w-[min-content]" data-node-id="3:18303">
+              Forest Suite
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[12px] w-[min-content]" data-node-id="3:18304">
+              2 guests · 38m² · 1 room
+            </p>
+            <div className="bg-[#cfcfc2] h-px relative shrink-0 w-full" data-node-id="3:18305" data-name="Divider" />
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="3:18306" data-name="Stay detail">
+              <p className="relative shrink-0 text-[#686e63]" data-node-id="3:18307">
+                Check-in
+              </p>
+              <p className="relative shrink-0 text-[#252824]" data-node-id="3:18308">
+                Mon, 16 Nov 2026
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="3:18309" data-name="Stay detail">
+              <p className="relative shrink-0 text-[#686e63]" data-node-id="3:18310">
+                Check-out
+              </p>
+              <p className="relative shrink-0 text-[#252824]" data-node-id="3:18311">
+                Thu, 19 Nov 2026
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="3:18312" data-name="Stay detail">
+              <p className="relative shrink-0 text-[#686e63]" data-node-id="3:18313">
+                Duration
+              </p>
+              <p className="relative shrink-0 text-[#252824]" data-node-id="3:18314">
+                3 nights
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="3:18315" data-name="Stay detail">
+              <p className="relative shrink-0 text-[#686e63]" data-node-id="3:18316">
+                Guests
+              </p>
+              <p className="relative shrink-0 text-[#252824]" data-node-id="3:18317">
+                2 adults
+              </p>
+            </div>
+            <div className="bg-[#cfcfc2] h-px relative shrink-0 w-full" data-node-id="3:18318" data-name="Divider" />
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[#252824] text-[13px] w-full whitespace-nowrap" data-node-id="3:18319" data-name="Nightly calculation">
+              <p className="relative shrink-0" data-node-id="3:18320">
+                $185 × 3 nights
+              </p>
+              <p className="relative shrink-0" data-node-id="3:18321">
+                $555
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex items-baseline justify-between leading-[normal] overflow-clip relative shrink-0 text-[#35463f] w-full whitespace-nowrap" data-node-id="3:18322" data-name="Stay total">
+              <p className="font-['Manrope:SemiBold'] font-semibold relative shrink-0 text-[14px]" data-node-id="3:18323">
+                Total · USD
+              </p>
+              <p className="font-['Cormorant_Garamond:Regular'] font-normal relative shrink-0 text-[44px]" data-node-id="3:18324">
+                $555
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[11px] w-[min-content]" data-node-id="3:18325">
+              Illustrative total. No extra charges in this demo. No payment or real reservation.
+            </p>
+          </div>
+          <div className="[word-break:break-word] bg-[#e8e8dd] content-stretch flex flex-col gap-[10px] items-start overflow-clip p-[20px] relative shrink-0 w-full" data-node-id="3:18326" data-name="Demo reassurance">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:18327">
+              A portfolio experience
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[12px] w-[min-content]" data-node-id="3:18328">
+              This booking journey is a static design demonstration. No live availability, personal data collection, payment, or real reservation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#35463f] content-stretch flex flex-col gap-[40px] items-start overflow-clip pb-[24px] pt-[48px] px-[24px] relative shrink-0 w-full" data-node-id="3:18329" data-name="Footer">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[32px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18330" data-name="Footer information">
+          <div className="content-stretch flex flex-col font-normal gap-[14px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18331" data-name="Brand promise">
+            <p className="font-['Cormorant_Garamond:Regular'] leading-[normal] relative shrink-0 text-[#f3f0e8] text-[60px] whitespace-nowrap" data-node-id="3:18332">
+              AERIS®
+            </p>
+            <p className="font-['Manrope:Regular'] leading-[1.7] min-w-full relative shrink-0 text-[#f3f0e8] text-[14px] w-[min-content]" data-node-id="3:18333">
+              Somewhere Between Earth and Sky.
+            </p>
+            <p className="font-['Manrope:Regular'] leading-[1.7] min-w-full relative shrink-0 text-[#b7b9a6] text-[12px] w-[min-content]" data-node-id="3:18334">
+              A mountain retreat in the Swiss Alps.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="3:18335" data-name="Explore">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#b7b9a6] text-[10px] uppercase" data-node-id="3:18336">
+              A little further
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:18337">{`Rooms & suites`}</p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:18338">
+              Experiences
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:18339">
+              Our story
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:18340">
+              Contact
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18341" data-name="Find us">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#b7b9a6] text-[10px] uppercase whitespace-nowrap" data-node-id="3:18342">
+              Find your quiet
+            </p>
+            <div className="font-['Manrope:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#f3f0e8] text-[13px] w-[min-content]" data-node-id="3:18343">
+              <p className="leading-[1.7] mb-0">Val d’Hérens, 1984 Les Haudères</p>
+              <p className="leading-[1.7]">Valais, Switzerland</p>
+            </div>
+            <div className="font-['Manrope:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#f3f0e8] text-[13px] w-[min-content]" data-node-id="3:18344">
+              <p className="leading-[1.7] mb-0">hello@aeris-retreat.example</p>
+              <p className="leading-[1.7]">+41 27 555 01 26</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18345" data-name="Colophon">
+          <div className="bg-[rgba(255,255,255,0.25)] h-px relative shrink-0 w-full" data-node-id="3:18346" data-name="Divider" />
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Manrope:Regular'] font-normal gap-[16px] items-start leading-[normal] overflow-clip relative shrink-0 text-[#b7b9a6] text-[10px] w-full" data-node-id="3:18347" data-name="Legal">
+            <p className="relative shrink-0 whitespace-nowrap" data-node-id="3:18348">
+              © 2026 AERIS® Mountain Retreat
+            </p>
+            <p className="relative shrink-0 whitespace-pre" data-node-id="3:18349">{`Privacy    ·    Terms    ·    Instagram`}</p>
+            <p className="relative shrink-0 whitespace-nowrap" data-node-id="3:18350">
+              An imagined place. A portfolio concept.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

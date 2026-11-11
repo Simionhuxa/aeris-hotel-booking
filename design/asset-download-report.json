@@ -1,0 +1,744 @@
+[
+  {
+    "file": "public/assets/figma/597e4a9a-635c-4165-b094-dac890a9e54b.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/597e4a9a-635c-4165-b094-dac890a9e54b.png",
+    "bytes": 208935,
+    "sha256": "61e6bc76caa3ab581bbc731a9699c200935c55c5bcbf47cd06e836823b127887",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/fd94a1b7-cbdb-4650-a15b-4ec74e29c896.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/fd94a1b7-cbdb-4650-a15b-4ec74e29c896.png",
+    "bytes": 203006,
+    "sha256": "4ef7d1065edea0c1dbf88f38563c49a97360e44fb701b6db455da651317f1660",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/1d0bf0af-1668-4040-809a-5a376922c4b5.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/1d0bf0af-1668-4040-809a-5a376922c4b5.svg",
+    "bytes": 320,
+    "sha256": "38b8846e57078d70da8e23fd42d8b876c76ffa9f215a5bc284455ce169b95600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/52e95546-a65a-4ab7-a4c3-a879540436d8.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/52e95546-a65a-4ab7-a4c3-a879540436d8.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/e94d3840-8c1a-4a9a-bb5f-1bbb8aafdc72.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/e94d3840-8c1a-4a9a-bb5f-1bbb8aafdc72.png",
+    "bytes": 207097,
+    "sha256": "cbe82cfeeb049edb7e4b9a4aab8b29eeb4def1e80a52458265e043e6b0f823c2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/87f43249-0e5b-4732-9657-2991ca1c0be4.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/87f43249-0e5b-4732-9657-2991ca1c0be4.png",
+    "bytes": 221094,
+    "sha256": "7a6f3bdf2dbb0a2a958f80509c0dbb3a5394eaa95272d66f7781948c9b8fea4d",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/d6257735-d7d0-4101-b9bd-c98717127e1a.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/d6257735-d7d0-4101-b9bd-c98717127e1a.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/065b6c69-80c4-48d6-8bfd-6df02c65d78c.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/065b6c69-80c4-48d6-8bfd-6df02c65d78c.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/bc1c3b75-5db1-4730-bbe3-5e3f172f8aa9.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/bc1c3b75-5db1-4730-bbe3-5e3f172f8aa9.png",
+    "bytes": 207659,
+    "sha256": "d67c8ba77959bd80d7727aecd1937f3d33b6bd0ac0b897f57e73ba360b51a8f8",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/2983161d-62a5-4c89-8d55-4e23da92609f.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/2983161d-62a5-4c89-8d55-4e23da92609f.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/c10d18ca-e534-4ee1-be64-9c2cac8ef504.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/c10d18ca-e534-4ee1-be64-9c2cac8ef504.png",
+    "bytes": 203006,
+    "sha256": "4ef7d1065edea0c1dbf88f38563c49a97360e44fb701b6db455da651317f1660",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/0f2d4d1f-e934-4fad-b87a-12fed41885cc.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/0f2d4d1f-e934-4fad-b87a-12fed41885cc.svg",
+    "bytes": 320,
+    "sha256": "38b8846e57078d70da8e23fd42d8b876c76ffa9f215a5bc284455ce169b95600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/91b181b5-0be1-4f9e-92c6-78f9ad46cb41.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/91b181b5-0be1-4f9e-92c6-78f9ad46cb41.svg",
+    "bytes": 467,
+    "sha256": "185c57ebe51d0516f4795d32ccc18110ce2ff5c017cee939e60aff322e3ebbff",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/18ed03fa-dd3f-4942-afab-00a52cf34239.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/18ed03fa-dd3f-4942-afab-00a52cf34239.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/8c379052-59d5-4df7-944a-49230587490d.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/8c379052-59d5-4df7-944a-49230587490d.png",
+    "bytes": 207659,
+    "sha256": "d67c8ba77959bd80d7727aecd1937f3d33b6bd0ac0b897f57e73ba360b51a8f8",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/83a38347-2a51-4799-93c9-998c6c9a9411.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/83a38347-2a51-4799-93c9-998c6c9a9411.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/00b66d00-c835-461d-91a2-c12b3ec1974a.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/00b66d00-c835-461d-91a2-c12b3ec1974a.svg",
+    "bytes": 467,
+    "sha256": "185c57ebe51d0516f4795d32ccc18110ce2ff5c017cee939e60aff322e3ebbff",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/2aaf8f19-cf8e-43db-a7fa-1d2098ef74c9.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/2aaf8f19-cf8e-43db-a7fa-1d2098ef74c9.png",
+    "bytes": 203006,
+    "sha256": "4ef7d1065edea0c1dbf88f38563c49a97360e44fb701b6db455da651317f1660",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/fc1366aa-df20-4692-9b82-35aceb3e85ce.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/fc1366aa-df20-4692-9b82-35aceb3e85ce.svg",
+    "bytes": 320,
+    "sha256": "38b8846e57078d70da8e23fd42d8b876c76ffa9f215a5bc284455ce169b95600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/42b31bea-0f8f-4dbc-9f46-3eaeb808bf5b.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/42b31bea-0f8f-4dbc-9f46-3eaeb808bf5b.svg",
+    "bytes": 352,
+    "sha256": "7529d0926edfba6527366bc0327f27a105b7eaf70ec08848bd02f44445d4b9df",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/2e062781-f6a9-4020-82f6-3e79758dc3f1.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/2e062781-f6a9-4020-82f6-3e79758dc3f1.svg",
+    "bytes": 365,
+    "sha256": "868b77f2cf79b37db3837211433531675a14a1b7a68e7f0c33fb3c8078e39a48",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/49dc59fd-bca0-4b2e-aa55-a0350ca574f9.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/49dc59fd-bca0-4b2e-aa55-a0350ca574f9.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/e59a662c-b103-47fe-b588-b5cdc0c669db.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/e59a662c-b103-47fe-b588-b5cdc0c669db.png",
+    "bytes": 207659,
+    "sha256": "d67c8ba77959bd80d7727aecd1937f3d33b6bd0ac0b897f57e73ba360b51a8f8",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/41d46b2d-5c18-458c-a02f-3615cafbdcd4.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/41d46b2d-5c18-458c-a02f-3615cafbdcd4.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/979bb5e5-5bf7-49ee-8ab0-35d19fca08e2.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/979bb5e5-5bf7-49ee-8ab0-35d19fca08e2.svg",
+    "bytes": 352,
+    "sha256": "7529d0926edfba6527366bc0327f27a105b7eaf70ec08848bd02f44445d4b9df",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/3b568951-a303-416b-8794-03efff34bb2a.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/3b568951-a303-416b-8794-03efff34bb2a.svg",
+    "bytes": 365,
+    "sha256": "868b77f2cf79b37db3837211433531675a14a1b7a68e7f0c33fb3c8078e39a48",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/0209ccc7-995f-4878-8e3c-3c039058094d.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/0209ccc7-995f-4878-8e3c-3c039058094d.png",
+    "bytes": 174062,
+    "sha256": "510778a2ba14e94b0208c92333abd5a8242233b81fb913cd0d36bb8b476a5a2a",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/5a760428-6462-4180-bdb0-169af9961f26.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/5a760428-6462-4180-bdb0-169af9961f26.svg",
+    "bytes": 320,
+    "sha256": "38b8846e57078d70da8e23fd42d8b876c76ffa9f215a5bc284455ce169b95600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/6a41b432-fdb8-413c-9b27-47bc5b90aa99.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/6a41b432-fdb8-413c-9b27-47bc5b90aa99.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/467c3b9b-9843-4948-9e13-87c311039ab0.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/467c3b9b-9843-4948-9e13-87c311039ab0.svg",
+    "bytes": 1044,
+    "sha256": "df9c9daad95914144382aea292788f97c2ea8ecbfbb2b69a0fcbb1dc5f5f09e7",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/1c70233d-2b4b-445d-9cc8-9c7269e24433.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/1c70233d-2b4b-445d-9cc8-9c7269e24433.svg",
+    "bytes": 356,
+    "sha256": "e40a18d4a518f1883d4ac0a4f6af76c85fb9c4d08239afbf4d3f4509530f81b3",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/c6e6bffd-d83b-44f6-8714-e1b56a283a25.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/c6e6bffd-d83b-44f6-8714-e1b56a283a25.svg",
+    "bytes": 385,
+    "sha256": "5f970e3c1899c95245dd5ca1bb73fad7c36fd04b28ce1c4b8cd9069755857600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/efa3ec98-6a28-4533-959e-d22aa17b4bde.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/efa3ec98-6a28-4533-959e-d22aa17b4bde.png",
+    "bytes": 189680,
+    "sha256": "14b86868c12f466307823a14df00c6d6ba93476c0a2c97fedfc9f8475c606dcf",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/59f2f82a-b818-4bea-90cb-82ba7bb577a9.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/59f2f82a-b818-4bea-90cb-82ba7bb577a9.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/cd428611-ad6b-42c9-bcd3-3ccf62f0e7b5.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/cd428611-ad6b-42c9-bcd3-3ccf62f0e7b5.svg",
+    "bytes": 1044,
+    "sha256": "df9c9daad95914144382aea292788f97c2ea8ecbfbb2b69a0fcbb1dc5f5f09e7",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/cc82d4e4-d909-4d93-a339-22d9bc35110c.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/cc82d4e4-d909-4d93-a339-22d9bc35110c.svg",
+    "bytes": 372,
+    "sha256": "559facdc89c7ca492b57b5896b928eda013da0d348915d6df3d53ea8f5e24b56",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/ba2d90a7-2300-42f7-97a3-e4e4265693d4.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/ba2d90a7-2300-42f7-97a3-e4e4265693d4.svg",
+    "bytes": 385,
+    "sha256": "5f970e3c1899c95245dd5ca1bb73fad7c36fd04b28ce1c4b8cd9069755857600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/19192d71-fe6f-4327-a432-8e3a24a6d946.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/19192d71-fe6f-4327-a432-8e3a24a6d946.png",
+    "bytes": 298123,
+    "sha256": "18793813a80417896042e0c978ea0f5e8c63cb2df5d99b67a72b8e9d084b04a0",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/440baa37-d8e7-459c-b663-45cbb8c1efe1.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/440baa37-d8e7-459c-b663-45cbb8c1efe1.png",
+    "bytes": 165102,
+    "sha256": "e330964d9f3bb03984dbbe91dabd13b60b864786d325f7c655aa20d1c0dd6e68",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/e1319bcd-3d83-432d-af37-911bef064e17.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/e1319bcd-3d83-432d-af37-911bef064e17.png",
+    "bytes": 158488,
+    "sha256": "5dbf4c906b8d21c232dae6bc2072cfcd1118818ac879261b295e4705f9f5d44b",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/b13f8b98-e72d-4f08-8de4-21c50264fc75.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/b13f8b98-e72d-4f08-8de4-21c50264fc75.svg",
+    "bytes": 320,
+    "sha256": "38b8846e57078d70da8e23fd42d8b876c76ffa9f215a5bc284455ce169b95600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/e9d437f4-03a8-4ffb-bada-ca9a47757ab9.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/e9d437f4-03a8-4ffb-bada-ca9a47757ab9.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/538f5202-9a8d-44af-8c0e-148b25953e84.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/538f5202-9a8d-44af-8c0e-148b25953e84.png",
+    "bytes": 275586,
+    "sha256": "73d6dafebce17a2339c2d59ea37be342b1bed0a0a183f0054b7be58949857ae6",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/06463881-119c-4eea-8867-2559726a631f.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/06463881-119c-4eea-8867-2559726a631f.png",
+    "bytes": 181419,
+    "sha256": "d098c45afe820d9c4494347adf51a8ede1cd9e03e11a5df0c36b68143d0428ae",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/f00404f7-98ff-4ec9-a876-4083009b6452.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/f00404f7-98ff-4ec9-a876-4083009b6452.png",
+    "bytes": 173416,
+    "sha256": "8617f29b4cec233aafcda55395d2a331e157bc176520d26bc5b5e1f34f323038",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/186271b5-d897-4ca3-9c4d-2f5355159e1e.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/186271b5-d897-4ca3-9c4d-2f5355159e1e.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/95c32121-9fc9-417d-84d3-c7279ef22ef9.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/95c32121-9fc9-417d-84d3-c7279ef22ef9.png",
+    "bytes": 215676,
+    "sha256": "456d36b83f73fd8686f86d978eb77bc3ea14ac81b04a74ee6556bb653d46c968",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/69d6051f-42e5-4cbd-950e-8052e76aea2c.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/69d6051f-42e5-4cbd-950e-8052e76aea2c.png",
+    "bytes": 211549,
+    "sha256": "64b7bd757b6270194a9e21b9c787e29c786a96eb6a5d8408a786ab39dd051c25",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/8b7028e7-631b-4c19-b3b5-b652bf4c75a0.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/8b7028e7-631b-4c19-b3b5-b652bf4c75a0.png",
+    "bytes": 202011,
+    "sha256": "e6885255b12c13ff1986f5ec9e3e32970d29b320270299a8c07f4991ebcc94ee",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/798f6a6d-ac3e-49d9-9d0d-189908c08b4b.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/798f6a6d-ac3e-49d9-9d0d-189908c08b4b.png",
+    "bytes": 251588,
+    "sha256": "653bb9e95fb2a7204f1a804ccb9304b9e41ce59ae759d3a2e633ce7994f5632b",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/49cf4c22-8c0b-466f-a769-50fffbf04e56.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/49cf4c22-8c0b-466f-a769-50fffbf04e56.svg",
+    "bytes": 320,
+    "sha256": "38b8846e57078d70da8e23fd42d8b876c76ffa9f215a5bc284455ce169b95600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/5aeb5cc0-c544-454c-89af-e75fdc4c0d9a.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/5aeb5cc0-c544-454c-89af-e75fdc4c0d9a.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/5376dfc4-ba92-4fff-8742-99f30fee11af.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/5376dfc4-ba92-4fff-8742-99f30fee11af.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/812ed1ed-b03a-4be8-b01b-68a9bc53fee0.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/812ed1ed-b03a-4be8-b01b-68a9bc53fee0.png",
+    "bytes": 204865,
+    "sha256": "f3db0919e5b42cc98bdf3077d59b4b8f950b8929f6f61efc96b69aba02fe0bdd",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/4ae288e8-1adb-4ce9-a665-4472e361aef5.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/4ae288e8-1adb-4ce9-a665-4472e361aef5.png",
+    "bytes": 199374,
+    "sha256": "29c0709878f7b8076627b77cf59c526ab0e64b957804614f75907c89b2e070b0",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/28146f3b-932d-4e08-9d86-71f4d5852f41.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/28146f3b-932d-4e08-9d86-71f4d5852f41.png",
+    "bytes": 231811,
+    "sha256": "abe7ce72736b1e3c1b1607328a96c7ae42855eec7e4c80b755291720a0c27e0a",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/77422977-8180-4437-9786-490fa84e5109.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/77422977-8180-4437-9786-490fa84e5109.png",
+    "bytes": 239704,
+    "sha256": "291e4ea2f31c122c3abbeb3796c8fe5b62cd839e4b4f78025b9ad9f9bf88c453",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/63a2d715-0aa7-4f0c-9607-52ec43b59203.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/63a2d715-0aa7-4f0c-9607-52ec43b59203.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/0e82e8f8-34ff-4de4-bbb0-0deb1139450b.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/0e82e8f8-34ff-4de4-bbb0-0deb1139450b.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/f7564c6c-df85-4ce7-8eb2-5988e8cfeb59.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/f7564c6c-df85-4ce7-8eb2-5988e8cfeb59.png",
+    "bytes": 239487,
+    "sha256": "ca50166c4c8d629f28e0a10db33a3a08b002b810a7c5f94e76a71596273b33d8",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/5e551921-9bde-42d5-80fe-27967f1e918d.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/5e551921-9bde-42d5-80fe-27967f1e918d.png",
+    "bytes": 203006,
+    "sha256": "4ef7d1065edea0c1dbf88f38563c49a97360e44fb701b6db455da651317f1660",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/f96d42f7-84f8-417f-b6dd-dde271de715f.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/f96d42f7-84f8-417f-b6dd-dde271de715f.png",
+    "bytes": 160869,
+    "sha256": "93367cd43d105b06cd18d5153281ccffaea1402091cd3ab1be2366feea59ff2e",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/8ae27ff6-e7b2-4e70-b5e8-bce3223cccc3.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/8ae27ff6-e7b2-4e70-b5e8-bce3223cccc3.svg",
+    "bytes": 320,
+    "sha256": "38b8846e57078d70da8e23fd42d8b876c76ffa9f215a5bc284455ce169b95600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/230dfd70-62e7-47c6-b715-398d40cc10fd.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/230dfd70-62e7-47c6-b715-398d40cc10fd.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/f960ef57-c435-4863-8c04-5ddc3723d147.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/f960ef57-c435-4863-8c04-5ddc3723d147.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/7f8ba068-c879-4dac-a82e-0b46e6cd2c48.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/7f8ba068-c879-4dac-a82e-0b46e6cd2c48.png",
+    "bytes": 226249,
+    "sha256": "0dd5e3ae74eba8ad206761d1ffcec38547f3dd2601a36fb782e53960b80a6dc8",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/3ba0dd46-d996-43ff-bf3c-7b8e8c97567f.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/3ba0dd46-d996-43ff-bf3c-7b8e8c97567f.png",
+    "bytes": 184522,
+    "sha256": "25b64038b0051f72f97bfc92dac8f92f66c68ddb8d3d82b9e1b537ea87b82c29",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/0fdf1501-268f-4fd6-8520-26d08429978e.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/0fdf1501-268f-4fd6-8520-26d08429978e.png",
+    "bytes": 193112,
+    "sha256": "047b82c9174c06479e867f3f5f7fc74435f6121eb257691ce3ace04f341cb395",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/60ff0158-41c1-4f6b-9b99-95acdf5c23dc.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/60ff0158-41c1-4f6b-9b99-95acdf5c23dc.png",
+    "bytes": 221094,
+    "sha256": "7a6f3bdf2dbb0a2a958f80509c0dbb3a5394eaa95272d66f7781948c9b8fea4d",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/702d36bf-05d6-4412-acc0-1f4f8c2e293c.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/702d36bf-05d6-4412-acc0-1f4f8c2e293c.png",
+    "bytes": 160034,
+    "sha256": "dab5ba0b40a6e62303f94b0b0c6c325e56c6876f8694d87a7ac5898aec2c99a4",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/520a1ef1-d504-4bee-8e68-fe48193ce455.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/520a1ef1-d504-4bee-8e68-fe48193ce455.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/7529e990-f7ec-4fc9-bd0b-28fa338be313.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/7529e990-f7ec-4fc9-bd0b-28fa338be313.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/f5fc2d2a-b658-4441-9111-ab2a381ce662.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/f5fc2d2a-b658-4441-9111-ab2a381ce662.png",
+    "bytes": 233182,
+    "sha256": "e660155ae78b8a9346d7dd5dc51b4dc80757b57cc663b86dc94c0ade736aa29c",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/e9233b03-5d24-4a4d-9970-bdf664190bc9.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/e9233b03-5d24-4a4d-9970-bdf664190bc9.png",
+    "bytes": 175361,
+    "sha256": "670f8a830d5a6fdf6b0df74303a969ad57563cf8af5c3061cf7100e27340a9d9",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/d1aad707-ce42-4095-b845-cec3571378a7.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/d1aad707-ce42-4095-b845-cec3571378a7.png",
+    "bytes": 163269,
+    "sha256": "e118b9c28bb54e59a22a48c795f9c2f164b45bcb2c7578240568a37d920ad4b7",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/0c8f743f-6f0a-49ae-9457-26141aaff71f.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/0c8f743f-6f0a-49ae-9457-26141aaff71f.svg",
+    "bytes": 320,
+    "sha256": "38b8846e57078d70da8e23fd42d8b876c76ffa9f215a5bc284455ce169b95600",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/6ca5c629-2936-4866-a485-a3501d609729.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/6ca5c629-2936-4866-a485-a3501d609729.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/533763be-f933-4a3e-9449-71e7c7836eaf.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/533763be-f933-4a3e-9449-71e7c7836eaf.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/4dc8d064-2ed0-4aee-b592-267d1005d405.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/4dc8d064-2ed0-4aee-b592-267d1005d405.png",
+    "bytes": 218520,
+    "sha256": "0f0dcc9dfa12b0ef02e21b59bfbfdaae6129b2c5a638399310e88dcdad2f02ba",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/ce38c382-7af5-4e70-a855-ab0b96ecd5ce.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/ce38c382-7af5-4e70-a855-ab0b96ecd5ce.png",
+    "bytes": 190249,
+    "sha256": "b1f7bbd435f6f1e9abe8a528a291ae1f7fcee5a8852fc0257fbaaca9164b8f3b",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/3e8fb815-419c-4fc0-849d-0889f22fc0af.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/3e8fb815-419c-4fc0-849d-0889f22fc0af.png",
+    "bytes": 207180,
+    "sha256": "fa8cca0277181323a84daefde408c499c459ebb16e2c6c03698ce62423af6621",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/402b82b4-afc7-4323-9fef-c972f67f1fe1.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/402b82b4-afc7-4323-9fef-c972f67f1fe1.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/db88afcd-008a-41c9-b3cb-b4a237af8784.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/db88afcd-008a-41c9-b3cb-b4a237af8784.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/feb4ce19-475b-45c3-8379-bb80e2486377.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/feb4ce19-475b-45c3-8379-bb80e2486377.png",
+    "bytes": 218005,
+    "sha256": "9d39769092100edbcc74ecf35c4fa10b915b1d1bc5833efbeceec5a4a9646d6b",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/c77a17fd-b3d6-40a3-8917-d765f2e529ed.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/c77a17fd-b3d6-40a3-8917-d765f2e529ed.png",
+    "bytes": 236494,
+    "sha256": "b1baa43cf74e0321cc2771de4ead4379e8b72c079e7f92deb6efa8b71524f040",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/7d2f7b85-6481-484b-b02b-27ea50f06fe1.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/7d2f7b85-6481-484b-b02b-27ea50f06fe1.png",
+    "bytes": 190920,
+    "sha256": "6081bab5aaaeefe1f679b0a636de6a85f6d5493edf06fa2e200babd2187ee3f5",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/2d18041c-5c89-40aa-827e-7e7cc438f8c8.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/2d18041c-5c89-40aa-827e-7e7cc438f8c8.png",
+    "bytes": 310913,
+    "sha256": "4f75b0d77832208452247349d9cdb6b10ddd4904a61a0c2e83316f17e35560c8",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/e7f22d6d-1b08-4de3-a9da-6aefd11b525a.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/e7f22d6d-1b08-4de3-a9da-6aefd11b525a.png",
+    "bytes": 175734,
+    "sha256": "9edbe1f7d02ff6f95e6fbd26d518a8ac4f5bc2b38416b0bd8ec293020acbdbd1",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/845d11a6-d01f-44b9-b9bd-6f13cefbec35.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/845d11a6-d01f-44b9-b9bd-6f13cefbec35.png",
+    "bytes": 184270,
+    "sha256": "01a12a2e07c15374fb9d528ac6d18512598660b4d776ab1048a24bdc271bf239",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/95fd8986-7230-45f9-a918-3b094319eb84.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/95fd8986-7230-45f9-a918-3b094319eb84.png",
+    "bytes": 243167,
+    "sha256": "6ef1c5a271483422c8d29f6f60c1f51f5ecb797cf245f6b9fbfa07f20a7cb00e",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/22b52865-feff-4110-9e79-402dec8b3d86.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/22b52865-feff-4110-9e79-402dec8b3d86.png",
+    "bytes": 121262,
+    "sha256": "b36f618261bb787fb2838eb1d1f8760c5584ebad8554aa503a3428207af5a9c2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/e7bd1272-4450-4aa9-a565-445a06a7e27e.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/e7bd1272-4450-4aa9-a565-445a06a7e27e.png",
+    "bytes": 221651,
+    "sha256": "e7c42e22e61870f8e7b6a638083311dbea9b4d58b7ae3be334fce712e9710335",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/e5e19376-2b22-4a96-a9b1-2545662d158c.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/e5e19376-2b22-4a96-a9b1-2545662d158c.svg",
+    "bytes": 320,
+    "sha256": "421fb050d157860dd228e27c42a33217ce36975a235ee04dbedf7192b2b6c150",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/a07eec8d-cebb-44f3-8c9d-d58627a7fdc4.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/a07eec8d-cebb-44f3-8c9d-d58627a7fdc4.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/3da7b6a3-5a91-4d6e-be25-176e2cbd66a0.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/3da7b6a3-5a91-4d6e-be25-176e2cbd66a0.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/ab8e2f37-46aa-4f31-8059-0d4b68f07a77.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/ab8e2f37-46aa-4f31-8059-0d4b68f07a77.png",
+    "bytes": 182287,
+    "sha256": "7e70ff417e6fbb91e3a71ee2fe25922733684307ee1e1a4b41b6742f312d34e0",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/d2eab83a-74ab-43eb-bb7f-cb06f9f3ce5a.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/d2eab83a-74ab-43eb-bb7f-cb06f9f3ce5a.png",
+    "bytes": 223710,
+    "sha256": "90a60e9b0d45adaea7220a9374cb6a081eadb7c75e5e1543f01f6173d4c32659",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/20deec74-f1c6-4bb4-9a92-fa6227ac4044.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/20deec74-f1c6-4bb4-9a92-fa6227ac4044.png",
+    "bytes": 162589,
+    "sha256": "8755e1ad9cecff04d291331a4fcb8bf82d6403828f0b1da9b9c161f7405b8dea",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/e45d217c-1937-4d4d-bd33-15b1dae00f98.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/e45d217c-1937-4d4d-bd33-15b1dae00f98.png",
+    "bytes": 323778,
+    "sha256": "61eee298553cafcbfecc99b7a4be992baee4f4d3f166a25590189b418ae7bcb6",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/620d069d-0695-4729-a998-9310216641be.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/620d069d-0695-4729-a998-9310216641be.png",
+    "bytes": 195309,
+    "sha256": "a0c440980400c51a9473f4960003f802273b74ee1c1a3efc62ca423f842feebe",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/f63c9c46-b833-4b3a-bf5e-5601d7f5646b.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/f63c9c46-b833-4b3a-bf5e-5601d7f5646b.png",
+    "bytes": 208755,
+    "sha256": "dafa9a76f51c93ba1bd9ebc34dff51ef4e39e00e6ee4edc93170bc15dfbec642",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/c43056af-3867-4663-8624-2074dd57565e.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/c43056af-3867-4663-8624-2074dd57565e.png",
+    "bytes": 261509,
+    "sha256": "8cb3503d2815cfe73fef53b939383ccb50b8b4cb950ae342c2e8c6d5ef3667e4",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/93a4f79f-a6c9-42af-8c28-9509e87656e1.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/93a4f79f-a6c9-42af-8c28-9509e87656e1.png",
+    "bytes": 118703,
+    "sha256": "1b2f15b74121b1e6f8805ba83094119f989bf7455a615bca3852ef2e1284250a",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/3e5b44a4-9947-4eab-be63-99fa68d6a5d3.jpg",
+    "source_url": "https://www.figma.com/api/mcp/asset/3e5b44a4-9947-4eab-be63-99fa68d6a5d3.png",
+    "bytes": 211246,
+    "sha256": "3e4b8d25aeb03283f07d4ef1f9631dda000c1621bc52beaf5f4735466709e9af",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/27d6c581-bd08-405a-b4a2-d2a88ad34eeb.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/27d6c581-bd08-405a-b4a2-d2a88ad34eeb.svg",
+    "bytes": 327,
+    "sha256": "df2b2f4f13f9927584bbdc7892277a382a84f0ddce5ceafc36883fa5754f25a2",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/figma/f65d9326-9c6d-4f5f-baf0-519643166191.svg",
+    "source_url": "https://www.figma.com/api/mcp/asset/f65d9326-9c6d-4f5f-baf0-519643166191.svg",
+    "bytes": 327,
+    "sha256": "c3ab0b7a30048a0c18848911b0f545430e06d2b95e3815dd2926ded133b65836",
+    "status": "downloaded"
+  }
+]

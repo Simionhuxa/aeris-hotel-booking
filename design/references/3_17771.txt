@@ -1,0 +1,838 @@
+const imgEditorialPhotograph = "https://www.figma.com/api/mcp/asset/2aaf8f19-cf8e-43db-a7fa-1d2098ef74c9.png";
+const imgMenu = "https://www.figma.com/api/mcp/asset/fc1366aa-df20-4692-9b82-35aceb3e85ce.svg";
+const imgSelectionControl = "https://www.figma.com/api/mcp/asset/42b31bea-0f8f-4dbc-9f46-3eaeb808bf5b.svg";
+const imgSelectionControl1 = "https://www.figma.com/api/mcp/asset/2e062781-f6a9-4020-82f6-3e79758dc3f1.svg";
+const imgArrowUpRight = "https://www.figma.com/api/mcp/asset/49dc59fd-bca0-4b2e-aa55-a0350ca574f9.svg";
+
+export default function BookingYourStayMobile() {
+  return (
+    <div className="bg-[#f3f0e8] content-stretch flex flex-col items-start relative size-full" data-node-id="3:17771" data-name="Booking · Your stay · Mobile">
+      <div className="bg-[#f3f0e8] content-stretch flex h-[82px] items-center justify-between overflow-clip px-[24px] relative shrink-0 w-full" data-node-id="3:17772" data-name="Solid navigation">
+        <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[32px] whitespace-nowrap" data-node-id="3:17773">
+          AERIS®
+        </p>
+        <div className="content-stretch flex gap-[24px] items-center overflow-clip relative shrink-0" data-node-id="3:17774" data-name="Mobile actions">
+          <div className="content-stretch flex h-[44px] items-center overflow-clip relative shrink-0" data-node-id="3:17775" data-name="Book touch target">
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[11px] whitespace-nowrap" data-node-id="3:17776">
+              Book Your Stay
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-center overflow-clip relative shrink-0 size-[44px]" data-node-id="3:17777" data-name="Menu touch target">
+            <div className="relative shrink-0 size-[24px]" data-node-id="3:19111" data-name="menu">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMenu} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[26px] items-start overflow-clip pb-[40px] pt-[32px] px-[24px] relative shrink-0 w-full" data-node-id="3:17779" data-name="Booking introduction">
+        <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:17780">
+          AERIS / A demonstration stay
+        </p>
+        <p className="font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[52px] w-[min-content]" data-node-id="3:17781">
+          Make room for quiet.
+        </p>
+        <div className="content-stretch flex gap-[10px] items-start leading-[normal] overflow-clip relative shrink-0 text-[11px] w-full whitespace-nowrap" data-node-id="3:17782" data-name="Booking progress">
+          <div className="border-[#35463f] border-b-2 border-solid content-stretch flex flex-[1_0_0] gap-[8px] items-center min-w-px overflow-clip pb-[12px] relative text-[#35463f]" data-node-id="3:17783" data-name="Current step">
+            <p className="font-['Manrope:Regular'] font-normal relative shrink-0" data-node-id="3:17784">
+              01
+            </p>
+            <p className="font-['Manrope:SemiBold'] font-semibold relative shrink-0" data-node-id="3:17785">
+              Your stay
+            </p>
+          </div>
+          <div className="border-[#cfcfc2] border-b border-solid content-stretch flex flex-[1_0_0] font-['Manrope:Regular'] font-normal gap-[8px] items-center min-w-px overflow-clip pb-[12px] relative text-[#686e63]" data-node-id="3:17786" data-name="Upcoming step">
+            <p className="relative shrink-0" data-node-id="3:17787">
+              02
+            </p>
+            <p className="relative shrink-0" data-node-id="3:17788">
+              Your details
+            </p>
+          </div>
+          <div className="border-[#cfcfc2] border-b border-solid content-stretch flex flex-[1_0_0] font-['Manrope:Regular'] font-normal gap-[8px] items-center min-w-px overflow-clip pb-[12px] relative text-[#686e63]" data-node-id="3:17789" data-name="Upcoming step">
+            <p className="relative shrink-0" data-node-id="3:17790">
+              03
+            </p>
+            <p className="relative shrink-0" data-node-id="3:17791">
+              Review
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[48px] items-start overflow-clip pb-[64px] px-[24px] relative shrink-0 w-full" data-node-id="3:17792" data-name="Booking body">
+        <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17793" data-name="Current booking stage">
+          <div className="content-stretch flex flex-col gap-[32px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17794" data-name="Dates room and guests">
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] relative shrink-0 text-[#252824] text-[36px] w-full" data-node-id="3:17795">
+              When will you find your quiet?
+            </p>
+            <div className="[word-break:break-word] content-stretch flex gap-[16px] items-start overflow-clip relative shrink-0 w-full whitespace-nowrap" data-node-id="3:17796" data-name="Selected dates">
+              <div className="border-2 border-[#35463f] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px overflow-clip p-[16px] relative" data-node-id="3:17797" data-name="Focused check-in">
+                <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase" data-node-id="3:17798">
+                  Check-in
+                </p>
+                <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[13px]" data-node-id="3:17799">
+                  16 Nov 2026
+                </p>
+              </div>
+              <div className="border border-[#cfcfc2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px overflow-clip p-[16px] relative" data-node-id="3:17800" data-name="Check-out selection">
+                <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase" data-node-id="3:17801">
+                  Check-out
+                </p>
+                <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[13px]" data-node-id="3:17802">
+                  19 Nov 2026
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[32px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17803" data-name="Stay calendar">
+              <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17804" data-name="Calendar month">
+                <div className="[word-break:break-word] content-stretch flex items-center justify-between leading-[normal] overflow-clip relative shrink-0 w-full whitespace-nowrap" data-node-id="3:17805" data-name="Month navigation">
+                  <p className="font-['Manrope:Regular'] font-normal relative shrink-0 text-[#b9bbb2] text-[20px]" data-node-id="3:17806">
+                    ‹
+                  </p>
+                  <p className="font-['Manrope:SemiBold'] font-semibold relative shrink-0 text-[#35463f] text-[14px]" data-node-id="3:17807">
+                    October 2026
+                  </p>
+                  <p className="font-['Manrope:Regular'] font-normal relative shrink-0 text-[#35463f] text-[20px]" data-node-id="3:17808">
+                    ›
+                  </p>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start leading-[normal] overflow-clip relative shrink-0 text-[#686e63] text-[10px] text-center w-full" data-node-id="3:17809" data-name="Weekday labels">
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17810">
+                    M
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17811">
+                    T
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17812">
+                    W
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17813">
+                    T
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17814">
+                    F
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17815">
+                    S
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17816">
+                    S
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17817" data-name="Date grid">
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17818" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17819" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17820">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17821" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17822">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17823" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17824">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17825" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17826">
+                        1
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17827" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17828">
+                        2
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17829" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17830">
+                        3
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17831" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17832">
+                        4
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17833" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17834" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17835">
+                        5
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17836" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17837">
+                        6
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17838" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17839">
+                        7
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17840" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17841">
+                        8
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17842" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17843">
+                        9
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17844" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17845">
+                        10
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17846" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17847">
+                        11
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17848" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17849" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17850">
+                        12
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17851" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17852">
+                        13
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17853" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17854">
+                        14
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17855" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17856">
+                        15
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17857" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17858">
+                        16
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17859" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17860">
+                        17
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17861" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17862">
+                        18
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17863" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17864" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17865">
+                        19
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17866" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17867">
+                        20
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17868" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17869">
+                        21
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17870" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17871">
+                        22
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17872" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17873">
+                        23
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17874" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17875">
+                        24
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17876" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17877">
+                        25
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17878" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17879" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17880">
+                        26
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17881" data-name="Past date disabled">
+                      <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[normal] line-through relative shrink-0 text-[#b9bbb2] text-[12px] whitespace-nowrap" data-node-id="3:17882">
+                        27
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[#35463f] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17883" data-name="Today">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17884">
+                        28
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17885" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17886">
+                        29
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17887" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17888">
+                        30
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17889" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17890">
+                        31
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17891" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17892">
+                        ​
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17893" data-name="Calendar month">
+                <div className="[word-break:break-word] content-stretch flex items-center justify-between leading-[normal] overflow-clip relative shrink-0 text-[#35463f] w-full whitespace-nowrap" data-node-id="3:17894" data-name="Month navigation">
+                  <p className="font-['Manrope:Regular'] font-normal relative shrink-0 text-[20px]" data-node-id="3:17895">
+                    ‹
+                  </p>
+                  <p className="font-['Manrope:SemiBold'] font-semibold relative shrink-0 text-[14px]" data-node-id="3:17896">
+                    November 2026
+                  </p>
+                  <p className="font-['Manrope:Regular'] font-normal relative shrink-0 text-[20px]" data-node-id="3:17897">
+                    ›
+                  </p>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start leading-[normal] overflow-clip relative shrink-0 text-[#686e63] text-[10px] text-center w-full" data-node-id="3:17898" data-name="Weekday labels">
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17899">
+                    M
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17900">
+                    T
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17901">
+                    W
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17902">
+                    T
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17903">
+                    F
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17904">
+                    S
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="3:17905">
+                    S
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17906" data-name="Date grid">
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17907" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17908" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17909">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17910" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17911">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17912" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17913">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17914" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17915">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17916" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17917">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17918" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17919">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17920" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17921">
+                        1
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17922" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17923" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17924">
+                        2
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17925" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17926">
+                        3
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17927" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17928">
+                        4
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17929" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17930">
+                        5
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17931" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17932">
+                        6
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17933" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17934">
+                        7
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17935" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17936">
+                        8
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17937" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17938" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17939">
+                        9
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17940" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17941">
+                        10
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17942" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17943">
+                        11
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17944" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17945">
+                        12
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17946" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17947">
+                        13
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17948" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17949">
+                        14
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17950" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17951">
+                        15
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17952" data-name="Calendar week">
+                    <div className="bg-[#35463f] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17953" data-name="Selected stay endpoint">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:17954">
+                        16
+                      </p>
+                    </div>
+                    <div className="bg-[#b7b9a6] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17955" data-name="Selected night">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17956">
+                        17
+                      </p>
+                    </div>
+                    <div className="bg-[#b7b9a6] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17957" data-name="Selected night">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17958">
+                        18
+                      </p>
+                    </div>
+                    <div className="bg-[#35463f] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17959" data-name="Selected stay endpoint">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:17960">
+                        19
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17961" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17962">
+                        20
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17963" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17964">
+                        21
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17965" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17966">
+                        22
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17967" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17968" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17969">
+                        23
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17970" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17971">
+                        24
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17972" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17973">
+                        25
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17974" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17975">
+                        26
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17976" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17977">
+                        27
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17978" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17979">
+                        28
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17980" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17981">
+                        29
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="3:17982" data-name="Calendar week">
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17983" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17984">
+                        30
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17985" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17986">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17987" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17988">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17989" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17990">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17991" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17992">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17993" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17994">
+                        ​
+                      </p>
+                    </div>
+                    <div className="bg-[#f3f0e8] border border-[rgba(0,0,0,0)] border-solid content-stretch flex flex-[1_0_0] flex-col h-[44px] items-center justify-center min-w-px overflow-clip relative" data-node-id="3:17995" data-name="Calendar day">
+                      <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#252824] text-[12px] whitespace-nowrap" data-node-id="3:17996">
+                        ​
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[16px] items-center overflow-clip relative shrink-0 w-full" data-node-id="3:17997" data-name="Calendar legend">
+              <div className="bg-[#35463f] relative shrink-0 size-[12px]" data-node-id="3:17998" data-name="Selected night swatch" />
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-px relative text-[#686e63] text-[11px]" data-node-id="3:17999">
+                16–19 Nov · 3 nights. Today: 28 Oct 2026. Past dates are disabled.
+              </p>
+            </div>
+            <div className="bg-[#cfcfc2] h-px relative shrink-0 w-full" data-node-id="3:18000" data-name="Divider" />
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] relative shrink-0 text-[#252824] text-[34px] w-full" data-node-id="3:18001">
+              Choose your room.
+            </p>
+            <div className="border-2 border-[#35463f] border-solid content-stretch flex gap-[14px] items-center overflow-clip p-[16px] relative shrink-0 w-full" data-node-id="3:18002" data-name="Selected room">
+              <div className="relative shrink-0 size-[20px]" data-node-id="3:18003" data-name="Selection control">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSelectionControl} />
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Manrope:Regular'] font-normal gap-[6px] items-start min-w-px overflow-clip relative" data-node-id="3:18004" data-name="Room option description">
+                <p className="leading-[normal] relative shrink-0 text-[#252824] text-[14px] whitespace-nowrap" data-node-id="3:18005">
+                  Forest Suite
+                </p>
+                <p className="leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[11px] w-[min-content]" data-node-id="3:18006">
+                  2 guests · 38m²
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:18007">
+                $185/night
+              </p>
+            </div>
+            <div className="border border-[#cfcfc2] border-solid content-stretch flex gap-[14px] items-center overflow-clip p-[16px] relative shrink-0 w-full" data-node-id="3:18008" data-name="Room option">
+              <div className="relative shrink-0 size-[20px]" data-node-id="3:18009" data-name="Selection control">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSelectionControl1} />
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Manrope:Regular'] font-normal gap-[6px] items-start min-w-px overflow-clip relative" data-node-id="3:18010" data-name="Room option description">
+                <p className="leading-[normal] relative shrink-0 text-[#252824] text-[14px] whitespace-nowrap" data-node-id="3:18011">
+                  Panorama Loft
+                </p>
+                <p className="leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[11px] w-[min-content]" data-node-id="3:18012">
+                  2 guests · 52m²
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:18013">
+                $275/night
+              </p>
+            </div>
+            <div className="border border-[#cfcfc2] border-solid content-stretch flex gap-[14px] items-center overflow-clip p-[16px] relative shrink-0 w-full" data-node-id="3:18014" data-name="Room option">
+              <div className="relative shrink-0 size-[20px]" data-node-id="3:18015" data-name="Selection control">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSelectionControl1} />
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Manrope:Regular'] font-normal gap-[6px] items-start min-w-px overflow-clip relative" data-node-id="3:18016" data-name="Room option description">
+                <p className="leading-[normal] relative shrink-0 text-[#252824] text-[14px] whitespace-nowrap" data-node-id="3:18017">
+                  Summit Residence
+                </p>
+                <p className="leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[11px] w-[min-content]" data-node-id="3:18018">
+                  4 guests · 86m²
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[12px] whitespace-nowrap" data-node-id="3:18019">
+                $420/night
+              </p>
+            </div>
+            <div className="bg-[#cfcfc2] h-px relative shrink-0 w-full" data-node-id="3:18020" data-name="Divider" />
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] relative shrink-0 text-[#252824] text-[34px] w-full" data-node-id="3:18021">
+              Who is coming along?
+            </p>
+            <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18022" data-name="Guests">
+              <div className="content-stretch flex items-center justify-between overflow-clip py-[18px] relative shrink-0 w-full" data-node-id="3:18023" data-name="Guest counter">
+                <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Manrope:Regular'] font-normal gap-[4px] items-start min-w-px overflow-clip relative" data-node-id="3:18024" data-name="Guest type">
+                  <p className="leading-[normal] relative shrink-0 text-[#252824] text-[14px] whitespace-nowrap" data-node-id="3:18025">
+                    Adults
+                  </p>
+                  <p className="leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[11px] w-[min-content]" data-node-id="3:18026">
+                    Ages 13 and above
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0" data-node-id="3:18027" data-name="Counter controls">
+                  <div className="border border-[#35463f] border-solid content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 size-[44px]" data-node-id="3:18028" data-name="Counter button">
+                    <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[20px] whitespace-nowrap" data-node-id="3:18029">
+                      −
+                    </p>
+                  </div>
+                  <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[15px] text-center w-[24px]" data-node-id="3:18030">
+                    2
+                  </p>
+                  <div className="border border-[#cfcfc2] border-solid content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 size-[44px]" data-node-id="3:18031" data-name="Disabled counter button">
+                    <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#b9bbb2] text-[20px] whitespace-nowrap" data-node-id="3:18032">
+                      +
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#cfcfc2] h-px relative shrink-0 w-full" data-node-id="3:18033" data-name="Divider" />
+              <div className="content-stretch flex items-center justify-between overflow-clip py-[18px] relative shrink-0 w-full" data-node-id="3:18034" data-name="Guest counter">
+                <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Manrope:Regular'] font-normal gap-[4px] items-start min-w-px overflow-clip relative" data-node-id="3:18035" data-name="Guest type">
+                  <p className="leading-[normal] relative shrink-0 text-[#252824] text-[14px] whitespace-nowrap" data-node-id="3:18036">
+                    Children
+                  </p>
+                  <p className="leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[11px] w-[min-content]" data-node-id="3:18037">
+                    Ages 0–12 · included in room capacity
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0" data-node-id="3:18038" data-name="Counter controls">
+                  <div className="border border-[#cfcfc2] border-solid content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 size-[44px]" data-node-id="3:18039" data-name="Disabled counter button">
+                    <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#b9bbb2] text-[20px] whitespace-nowrap" data-node-id="3:18040">
+                      −
+                    </p>
+                  </div>
+                  <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#35463f] text-[15px] text-center w-[24px]" data-node-id="3:18041">
+                    0
+                  </p>
+                  <div className="border border-[#cfcfc2] border-solid content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 size-[44px]" data-node-id="3:18042" data-name="Disabled counter button">
+                    <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#b9bbb2] text-[20px] whitespace-nowrap" data-node-id="3:18043">
+                      +
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="[word-break:break-word] bg-[#e8e8dd] content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[18px] relative shrink-0 text-[12px] w-full" data-node-id="3:18044" data-name="Capacity notice">
+              <p className="font-['Manrope:SemiBold'] font-semibold leading-[normal] relative shrink-0 text-[#35463f] whitespace-nowrap" data-node-id="3:18045">
+                Forest Suite · Maximum 2 guests
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] w-[min-content]" data-node-id="3:18046">
+                2 of 2 places selected. To bring more guests, choose the Summit Residence, which sleeps up to 4.
+              </p>
+            </div>
+            <div className="bg-[#35463f] border border-[rgba(0,0,0,0)] border-solid content-stretch flex gap-[24px] h-[54px] items-center justify-center overflow-clip px-[24px] relative shrink-0 w-full" data-node-id="3:18047" data-name="Action">
+              <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[normal] relative shrink-0 text-[#f3f0e8] text-[12px] whitespace-nowrap" data-node-id="3:18048">
+                Continue to your details
+              </p>
+              <div className="relative shrink-0 size-[16px]" data-node-id="3:19114" data-name="arrow-up-right">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRight} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18050" data-name="Stay overview">
+          <div className="border border-[#cfcfc2] border-solid content-stretch flex flex-col gap-[20px] items-start overflow-clip p-[24px] relative shrink-0 w-full" data-node-id="3:18051" data-name="Your stay summary">
+            <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:18052">
+              Your quiet escape
+            </p>
+            <div className="h-[180px] relative shrink-0 w-full" data-node-id="3:18053" data-name="Editorial photograph">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhotograph} />
+            </div>
+            <p className="[word-break:break-word] font-['Cormorant_Garamond:Regular'] font-normal leading-[1.04] min-w-full relative shrink-0 text-[#252824] text-[36px] w-[min-content]" data-node-id="3:18054">
+              Forest Suite
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[12px] w-[min-content]" data-node-id="3:18055">
+              2 guests · 38m² · 1 room
+            </p>
+            <div className="bg-[#cfcfc2] h-px relative shrink-0 w-full" data-node-id="3:18056" data-name="Divider" />
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="3:18057" data-name="Stay detail">
+              <p className="relative shrink-0 text-[#686e63]" data-node-id="3:18058">
+                Check-in
+              </p>
+              <p className="relative shrink-0 text-[#252824]" data-node-id="3:18059">
+                Mon, 16 Nov 2026
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="3:18060" data-name="Stay detail">
+              <p className="relative shrink-0 text-[#686e63]" data-node-id="3:18061">
+                Check-out
+              </p>
+              <p className="relative shrink-0 text-[#252824]" data-node-id="3:18062">
+                Thu, 19 Nov 2026
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="3:18063" data-name="Stay detail">
+              <p className="relative shrink-0 text-[#686e63]" data-node-id="3:18064">
+                Duration
+              </p>
+              <p className="relative shrink-0 text-[#252824]" data-node-id="3:18065">
+                3 nights
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="3:18066" data-name="Stay detail">
+              <p className="relative shrink-0 text-[#686e63]" data-node-id="3:18067">
+                Guests
+              </p>
+              <p className="relative shrink-0 text-[#252824]" data-node-id="3:18068">
+                2 adults
+              </p>
+            </div>
+            <div className="bg-[#cfcfc2] h-px relative shrink-0 w-full" data-node-id="3:18069" data-name="Divider" />
+            <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal items-start justify-between leading-[normal] overflow-clip relative shrink-0 text-[#252824] text-[13px] w-full whitespace-nowrap" data-node-id="3:18070" data-name="Nightly calculation">
+              <p className="relative shrink-0" data-node-id="3:18071">
+                $185 × 3 nights
+              </p>
+              <p className="relative shrink-0" data-node-id="3:18072">
+                $555
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex items-baseline justify-between leading-[normal] overflow-clip relative shrink-0 text-[#35463f] w-full whitespace-nowrap" data-node-id="3:18073" data-name="Stay total">
+              <p className="font-['Manrope:SemiBold'] font-semibold relative shrink-0 text-[14px]" data-node-id="3:18074">
+                Total · USD
+              </p>
+              <p className="font-['Cormorant_Garamond:Regular'] font-normal relative shrink-0 text-[44px]" data-node-id="3:18075">
+                $555
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[11px] w-[min-content]" data-node-id="3:18076">
+              Illustrative total. No extra charges in this demo. No payment or real reservation.
+            </p>
+          </div>
+          <div className="[word-break:break-word] bg-[#e8e8dd] content-stretch flex flex-col gap-[10px] items-start overflow-clip p-[20px] relative shrink-0 w-full" data-node-id="3:18077" data-name="Demo reassurance">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#35463f] text-[10px] uppercase whitespace-nowrap" data-node-id="3:18078">
+              A portfolio experience
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[1.7] min-w-full relative shrink-0 text-[#686e63] text-[12px] w-[min-content]" data-node-id="3:18079">
+              This booking journey is a static design demonstration. No live availability, personal data collection, payment, or real reservation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#35463f] content-stretch flex flex-col gap-[40px] items-start overflow-clip pb-[24px] pt-[48px] px-[24px] relative shrink-0 w-full" data-node-id="3:18080" data-name="Footer">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[32px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18081" data-name="Footer information">
+          <div className="content-stretch flex flex-col font-normal gap-[14px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18082" data-name="Brand promise">
+            <p className="font-['Cormorant_Garamond:Regular'] leading-[normal] relative shrink-0 text-[#f3f0e8] text-[60px] whitespace-nowrap" data-node-id="3:18083">
+              AERIS®
+            </p>
+            <p className="font-['Manrope:Regular'] leading-[1.7] min-w-full relative shrink-0 text-[#f3f0e8] text-[14px] w-[min-content]" data-node-id="3:18084">
+              Somewhere Between Earth and Sky.
+            </p>
+            <p className="font-['Manrope:Regular'] leading-[1.7] min-w-full relative shrink-0 text-[#b7b9a6] text-[12px] w-[min-content]" data-node-id="3:18085">
+              A mountain retreat in the Swiss Alps.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="3:18086" data-name="Explore">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#b7b9a6] text-[10px] uppercase" data-node-id="3:18087">
+              A little further
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:18088">{`Rooms & suites`}</p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:18089">
+              Experiences
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:18090">
+              Our story
+            </p>
+            <p className="font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f3f0e8] text-[13px]" data-node-id="3:18091">
+              Contact
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18092" data-name="Find us">
+            <p className="font-['Manrope:Medium'] font-medium leading-[1.5] relative shrink-0 text-[#b7b9a6] text-[10px] uppercase whitespace-nowrap" data-node-id="3:18093">
+              Find your quiet
+            </p>
+            <div className="font-['Manrope:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#f3f0e8] text-[13px] w-[min-content]" data-node-id="3:18094">
+              <p className="leading-[1.7] mb-0">Val d’Hérens, 1984 Les Haudères</p>
+              <p className="leading-[1.7]">Valais, Switzerland</p>
+            </div>
+            <div className="font-['Manrope:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#f3f0e8] text-[13px] w-[min-content]" data-node-id="3:18095">
+              <p className="leading-[1.7] mb-0">hello@aeris-retreat.example</p>
+              <p className="leading-[1.7]">+41 27 555 01 26</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="3:18096" data-name="Colophon">
+          <div className="bg-[rgba(255,255,255,0.25)] h-px relative shrink-0 w-full" data-node-id="3:18097" data-name="Divider" />
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Manrope:Regular'] font-normal gap-[16px] items-start leading-[normal] overflow-clip relative shrink-0 text-[#b7b9a6] text-[10px] w-full" data-node-id="3:18098" data-name="Legal">
+            <p className="relative shrink-0 whitespace-nowrap" data-node-id="3:18099">
+              © 2026 AERIS® Mountain Retreat
+            </p>
+            <p className="relative shrink-0 whitespace-pre" data-node-id="3:18100">{`Privacy    ·    Terms    ·    Instagram`}</p>
+            <p className="relative shrink-0 whitespace-nowrap" data-node-id="3:18101">
+              An imagined place. A portfolio concept.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
