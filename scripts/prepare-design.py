@@ -1,8 +1,3 @@
-"""Offline conversion of the saved Figma reference to typed presentation data.
-
-No Figma API access. Assets resolve through the verified local inventory.
-The React renderer supplies semantics, shared components, and interactions.
-"""
 from pathlib import Path
 from html.parser import HTMLParser
 import json
